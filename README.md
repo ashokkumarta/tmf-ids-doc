@@ -66,3 +66,24 @@ Currently has the following configurations
     docker-compose -f mno-2.yaml up
     
 ```
+
+https://github.com/ashokkumarta/tmf-ids-logs
+```
+Configuration and files to initialise the logs.io instance
+
+```
+
+https://github.com/ashokkumarta/tmf-ids-bin
+
+```
+scripts to start the instances. Following scripts are included in this repo
+regu - starts the regulator instance
+csp - starts the csp instance 
+mno1 - starts the mno-1 instance
+mno2 - starts the mno-2 instance
+all - starts all the instances in sequence
+slow - folder containing all the above scripts, to start instances with slow communication speed configuration
+
+logs - starts the logs.io instance
+
+```
